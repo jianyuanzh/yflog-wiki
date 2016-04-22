@@ -1,0 +1,18 @@
+# Document:
+# http://simiki.org/docs/configuration.html
+
+url: http://wiki.yflog.com 
+title: YFLog Wiki
+keywords: yflog, software, develop
+description: This is my personal wiki to record things.
+author: Vincent Zhang
+
+root: /
+source: content
+thems_dir: themes
+pygments: true
+default_ext: md
+
+deploy:
+  - type: git
+    remote: git@yflog.com:yflog-wiki.git
